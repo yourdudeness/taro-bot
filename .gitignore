@@ -1,0 +1,24 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# env — коммитим только .env.example
+.env
+.env.*
+
+# база данных
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# ассеты
+apps/bot/assets/cards/*.jpg
+services/*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# логи
+*.log
+npm-debug.log*

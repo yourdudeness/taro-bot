@@ -1,0 +1,10 @@
+{
+  "name": "tarot-bot",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:bot": "npm run dev -w @tarot/bot",
+    "dev:webapp": "npm run dev -w @tarot/webapp",
+    "build": "npm run build -w @tarot/shared -w @tarot/bot -w @tarot/webapp"
+  }
+}
